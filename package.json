@@ -4,6 +4,10 @@
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.1",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -14,17 +18,17 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-class-properties": "^7.18.6",
-    "@rollup/plugin-terser": "0.4.4",
-    "domexception": "^2.0.1",
-    "w3c-hr-time": "^1.0.2",
-    "@jridgewell/sourcemap-codec": "^1.4.8",
-    "abab": "^2.0.6",
-    "workbox-background-sync": "^6.6.0",
-    "@babel/plugin-transform-private-methods": "^7.18.6",
-    "@babel/plugin-transform-numeric-separator": "^7.18.6",
     "@babel/plugin-transform-nullish-coalescing-operator": "^7.18.6",
+    "@babel/plugin-transform-numeric-separator": "^7.18.6",
     "@babel/plugin-transform-optional-chaining": "^7.21.0",
-    "svgo": "^2.0.0"
+    "@babel/plugin-transform-private-methods": "^7.18.6",
+    "@jridgewell/sourcemap-codec": "^1.4.8",
+    "@rollup/plugin-terser": "0.4.4",
+    "abab": "^2.0.6",
+    "domexception": "^2.0.1",
+    "svgo": "^2.0.0",
+    "w3c-hr-time": "^1.0.2",
+    "workbox-background-sync": "^6.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
