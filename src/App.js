@@ -2,6 +2,8 @@
 import React from 'react';
 import './App.css';
 import BlogList from './components/BlogList';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCloud } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   const posts = [
@@ -21,8 +23,15 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Welcome to Cloud Atlas Blog</h1>
-      <BlogList posts={posts} />
+      <header className="header">
+        <h1>
+          <FontAwesomeIcon icon={faCloud} /> Cloud Atlas Blog
+        </h1>
+        <p>Exploring the Cloud Universe</p>
+      </header>
+      <div className="blog-list">
+        <BlogList posts={posts} />
+      </div>
     </div>
   );
 }
