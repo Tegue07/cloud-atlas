@@ -12,6 +12,21 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "@babel/plugin-transform-class-properties": "^7.18.6",
+    "rollup-plugin-terser": "^7.0.2",
+    "domexception": "^2.0.1",
+    "w3c-hr-time": "^1.0.2",
+    "sourcemap-codec": "^1.4.8",
+    "abab": "^2.0.6",
+    "workbox-google-analytics": "^6.6.0",
+    "workbox-background-sync": "^6.6.0",
+    "@babel/plugin-transform-private-methods": "^7.18.6",
+    "@babel/plugin-transform-numeric-separator": "^7.18.6",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.18.6",
+    "@babel/plugin-transform-optional-chaining": "^7.21.0",
+    "svgo": "^2.0.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
